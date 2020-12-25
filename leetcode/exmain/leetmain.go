@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"goDemo/leetcode/quicksort"
+	//"goDemo/leetcode/quicksort"
 	//"goDemo/leetcode/popsort"
+	"goDemo/leetcode/selectionsort"
 )
 
 
@@ -12,5 +13,6 @@ func main()  {
 	//ss:=duplicatarry.RemoveDuplicates(scores)
 	fmt.Println("信息")
 	//popsort.Popsort(&scores)
-	quicksort.QuickSort(&scores)
+	//quicksort.QuickSort(&scores)
+	selectionsort.SelectionSort(&scores)
 }
