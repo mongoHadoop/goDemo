@@ -84,6 +84,7 @@ func main()  {
 	h := "hello"
 	fmt.Println(mutate(h))
 	//为了修改字符串，可以把字符串转化为一个 rune 切片。然后这个切片可以进行任何想要的改变，然后再转化为一个字符串
+	// 其他数字类型 byte 是 uint8 的别名。rune 是 int32 的别名.
 	fmt.Println(mutate2([]rune(h)))
 }
 
