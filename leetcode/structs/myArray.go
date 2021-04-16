@@ -40,7 +40,7 @@ func resize(array1 []int )  {
 }
 func outprint()  {
 	array1:=*myArray.Array
-	for i:=0;i<myArray.Size;i++{
+	for i:=0;i< len(array1);i++{
 		fmt.Println(array1[i])
 	}
 }
@@ -53,7 +53,7 @@ func main()  {
 	}
 	v1:=make([]int, 10)
 	myArray.Array= &v1
-	insert(3,0)
+	insert(3,5)
 	 insert(7,1)
 	 insert(9,2)
 	 insert(5,3)
