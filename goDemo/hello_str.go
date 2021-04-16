@@ -25,7 +25,10 @@ func printChars(s string) {
 		fmt.Printf("%c ",s[i])
 	}
 }
-
+/**
+  rune 是 Go 语言的内建类型，它也是 int32 的别称。
+  在 Go 语言中，rune 表示一个代码点。代码点无论占用多少个字节，
+  **/
 func printChars2(s string) {
 	runes := []rune(s)
 	fmt.Println()
